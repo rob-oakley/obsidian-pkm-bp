@@ -1,0 +1,20 @@
+---
+description: Atlas Zettelkasten — fleeting, literature, permanent, MOC
+globs: "{ACE/Atlas/**,102_RESOURCES/Notes/**,SCRATCHPAD.md}"
+alwaysApply: false
+---
+
+# Zettelkasten (ACE/Atlas)
+
+Methodology: `ACE/Atlas/Zettelkasten.md`.
+
+| Stage | Where | Rule |
+|-------|-------|------|
+| Fleeting | `SCRATCHPAD`, `ACE/Calendar/` | Raw capture; `type: fleeting` |
+| Literature | `102_RESOURCES/Notes/` | Source-grounded; link toward concepts when ready |
+| Permanent | `ACE/Atlas/Concepts/` | **One atomic idea per note** |
+| MOC | `ACE/Atlas/MOCs/` or `101_AREAS/AoIs/` | Topic hubs only |
+
+Do not relocate project specs, meeting notes, incident logs, or contacts into Concepts/. Prefer `[[wikilinks]]` over plain paths.
+
+When promoting literature → permanent, add outbound links from the literature note to new concept notes.

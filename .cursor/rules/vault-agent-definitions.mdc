@@ -1,0 +1,15 @@
+---
+description: AI agent markdown in 200_AGENTS and vault_keeper
+globs: "{200_AGENTS/**,vault_keeper.md}"
+alwaysApply: false
+---
+
+# Agent definition files
+
+Notes in `200_AGENTS/` are **system prompts**, not regular vault notes.
+
+Structure: **Role → Instructions → Constraints → Output Format**
+
+Required frontmatter: `name:`, `description:`, `version:`, `ai_agent: true`, `status: Active|Draft`, `tags: [agent, …]`
+
+Root **`vault_keeper.md`** is the authority for reorganization, link hygiene, archive candidates, and vault health reporting. When moving or restructuring notes, read and follow it; do not contradict its safety constraints (especially: no deletes without user approval).

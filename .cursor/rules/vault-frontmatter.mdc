@@ -1,0 +1,27 @@
+---
+description: YAML frontmatter and tags for vault notes
+globs: "**/*.md"
+alwaysApply: false
+---
+
+# Frontmatter & tags
+
+All new/edited notes need YAML frontmatter. Use hierarchical tags with slashes (`note/meeting`, `areas/responsibility`, `Location360/Imagery/Imagine`).
+
+| Note kind | Location | Key fields |
+|-----------|----------|------------|
+| Index | category hubs | `tags: [index, …]`, `aliases:` |
+| Project | `100_PROJECTS/` | `tags: [projects, active]`, `project: true`, `status:`, `start_date:`, `vertical:`, `tech_stack:[]` |
+| Feature | `…/Features/` | `tags: [feature, …]`, `status:`, `priority:` — link `[[Parent Project]]` below frontmatter |
+| Contact | `ACE/Calendar/Contacts/` | `tags: [contact, org]`, `role:`, `organization:`, `projects:[]` |
+| Meeting | PARA/Calendar | `tags: [note/meeting, …]`, `meeting_attendees:[]`, `point_of_contact:` |
+| Session log | `Notes & Logs/` | filename `YYYYMMDD-<Title>.md` |
+| Literature | `102_RESOURCES/Notes/` | `type: literature`, `source:`, `created:` |
+| Permanent | `ACE/Atlas/Concepts/` | `type: permanent`, `status: seed\|developing\|evergreen`, `tags: [concept, ace/atlas, …]` |
+| MOC | `ACE/Atlas/MOCs/` or `101_AREAS/AoIs/` | `type: moc`, `tags: [moc, ace/atlas, …]` |
+| Fleeting | `SCRATCHPAD`, Calendar | `type: fleeting`, `tags: [inbox, fleeting]` |
+| Agent def | `200_AGENTS/` | `ai_agent: true`, `name:`, `description:`, `version:`, `status: Active\|Draft` |
+
+Bases filters use booleans: `project:`, `AoR:`, `AoI:`, `ai_agent:`, `idea:` and `type:`.
+
+Index breadcrumbs: `[[Parent|← Parent]] | [[INDEX|← Home]]`

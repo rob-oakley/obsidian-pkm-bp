@@ -1,0 +1,20 @@
+# Obsidian — machine-local
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/hotkeys.json
+.obsidian/cache
+.trash/
+
+# Plugins (reinstall from community-plugins.json on other machines)
+.obsidian/plugins/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+*.pem
+credentials.json
+**/secrets.*

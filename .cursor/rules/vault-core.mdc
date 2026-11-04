@@ -1,0 +1,32 @@
+---
+description: Cyberbrain vault — PARA+ACE structure, safety rules, and agent defaults
+alwaysApply: true
+---
+
+# pkm-bp Obsidian Vault
+
+Personal knowledge vault (not a code repo): **PARA + ACE + Zettelkasten**. Domain context (when populated): Location360 geospatial data (imagery, UAV, Label Studio, data quality). Stack context: Go, PostgreSQL/RDS, Vue, Python, DuckDB.
+
+## Top-level layout (numbering is sacred)
+
+- `100_PROJECTS/` — active projects
+- `101_AREAS/` — AoRs & AoIs
+- `102_RESOURCES/` — logs, literature notes, orgs
+- `200_AGENTS/` — AI agent system prompts
+- `201_BASES/` — Obsidian Bases (`.base`)
+- `900_TEMPLATES/`, `901_ATTACHMENTS/`, `999_ARCHIVE/`
+- `ACE/` — Atlas (concepts/MOCs), Calendar (contacts), Efforts
+- `INDEX.md` — dashboard entry
+
+**Never create new top-level numbered prefixes** (100s = PARA, 200s = agents, 900s = meta, 999 = archive).
+
+## Non-negotiables
+
+1. **Never delete files** without explicit user confirmation
+2. **Always add YAML frontmatter** to new notes (tags at minimum)
+3. **Report planned moves** before reorganizing; follow `vault_keeper.md` for maintenance
+4. Use **Obsidian** syntax: `[[wikilinks]]`, callouts `>[!type]`
+5. Update **index/MOC pages** when adding notes to a category
+6. Do not force PARA notes (projects, meetings, contacts, features) into atomic Zettelkasten notes
+
+Full reference: root **`AGENTS.md`**. Cursor rules in **`.cursor/rules/`** mirror it by topic.

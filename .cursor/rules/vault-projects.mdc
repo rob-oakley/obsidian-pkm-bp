@@ -1,0 +1,28 @@
+---
+description: Project folder layout, epics, features, and kanban
+globs: "100_PROJECTS/**"
+alwaysApply: false
+---
+
+# Projects (PARA)
+
+Each project folder:
+
+```
+ProjectName/
+├── ProjectName.md      — MOC / overview
+├── Project Kanban.md   — kanban-plugin board
+├── RE-ENTRY.md         — context for returning
+├── Features/           — feature specs
+└── Notes & Logs/       — YYYYMMDD session logs
+```
+
+- Epic (`ProjectName.md`) links **down** to features in a table
+- Feature specs link **up** to epic: `[[Project Name]]` immediately after frontmatter
+- **Bidirectional** epic ↔ feature links when adding or editing either side
+
+## Kanban
+
+Boards use frontmatter `kanban-plugin: board` plus the plugin settings block at the file bottom. Do not strip or relocate that block when editing tasks.
+
+Plugins in use: `dataview`, `obsidian-git`, `obsidian-kanban`, `templater-obsidian`, `bases`.
