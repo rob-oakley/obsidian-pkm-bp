@@ -15,10 +15,10 @@ This repo is meant to be **your** vault, not a shared upstream you commit notes 
 With [GitHub CLI](https://cli.github.com/):
 
 ```bash
-gh repo fork YOUR_GITHUB_USER/obsidian-pkm-bp --clone
+gh repo fork TEMPLATE_OWNER/obsidian-pkm-bp --clone
 ```
 
-Replace `YOUR_GITHUB_USER/obsidian-pkm-bp` with the source repo you are forking from, then `cd` into the cloned folder and open it in Obsidian.
+Use the **template** repo’s `owner/name` (not your fork’s URL). GitHub creates the fork under your account and clones it locally; then open that folder in Obsidian.
 
 ## Prerequisites
 
