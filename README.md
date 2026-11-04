@@ -4,6 +4,22 @@ Obsidian vault scaffold for personal knowledge management: **PARA + ACE + Zettel
 
 Inside Obsidian, open **`INDEX.md`** for the vault dashboard.
 
+## Fork this template
+
+This repo is meant to be **your** vault, not a shared upstream you commit notes into.
+
+1. On GitHub, open the repository page and click **Fork** (or **Use this template** if the repo is published as a template).
+2. Create the fork under your user or org. Prefer a **private** fork if you will store sensitive notes.
+3. Clone **your** fork (see [Local setup](#local-setup)) using your GitHub username in the clone URL—not the original author’s.
+
+With [GitHub CLI](https://cli.github.com/):
+
+```bash
+gh repo fork YOUR_GITHUB_USER/obsidian-pkm-bp --clone
+```
+
+Replace `YOUR_GITHUB_USER/obsidian-pkm-bp` with the source repo you are forking from, then `cd` into the cloned folder and open it in Obsidian.
+
 ## Prerequisites
 
 - [Obsidian](https://obsidian.md/) (desktop recommended for first setup)
