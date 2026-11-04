@@ -2,7 +2,7 @@
 
 Obsidian vault scaffold for personal knowledge management: **PARA + ACE + Zettelkasten**. Use it as a starting point for projects, areas, literature notes, and atomic concepts.
 
-Inside Obsidian, open **[[INDEX]]** (`INDEX.md`) for the vault dashboard.
+Inside Obsidian, open **`INDEX.md`** for the vault dashboard.
 
 ## Prerequisites
 
