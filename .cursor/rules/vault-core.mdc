@@ -1,11 +1,11 @@
 ---
-description: Cyberbrain vault — PARA+ACE structure, safety rules, and agent defaults
+description: Obsidian PKM vault — PARA+ACE structure, safety rules, and agent defaults
 alwaysApply: true
 ---
 
 # pkm-bp Obsidian Vault
 
-Personal knowledge vault (not a code repo): **PARA + ACE + Zettelkasten**. Domain context (when populated): Location360 geospatial data (imagery, UAV, Label Studio, data quality). Stack context: Go, PostgreSQL/RDS, Vue, Python, DuckDB.
+Generic personal knowledge vault (not a code repo): **PARA + ACE + Zettelkasten**. Domain and stack are defined by the user in project frontmatter and tags—not baked into this scaffold.
 
 ## Top-level layout (numbering is sacred)
 

@@ -126,7 +126,7 @@ Use the following template when defining new goals:
 
 ### Example
 
-> I will complete a machine learning course and build three portfolio projects by June 30, 2027, measured by course completion and project deployment, because it supports my goal of becoming more effective in AI-driven geospatial workflows.
+> I will complete an online course and build three portfolio projects by June 30, 2027, measured by course completion and project delivery, because it supports my goal of growing skills in my chosen field.
 
 ---
 

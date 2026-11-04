@@ -41,7 +41,7 @@ tags:
 
 ## Business Objective / Value Proposition
 
-<!-- What value will this bring to Bayer? Why is this needed? What problem does it solve? -->
+<!-- What value will this bring to stakeholders? Why is this needed? What problem does it solve? -->
 
 ---
 

@@ -18,7 +18,7 @@ This document remains the full reference; rules are concise slices for the agent
 
 ## What This Is
 
-An Obsidian vault (not a code repository) organized with **PARA + ACE + Zettelkasten** methodology. PARA files notes by actionability; ACE provides thinking spaces; Zettelkasten (implemented in Atlas) connects atomic ideas into a web of linked notes. It serves as a personal knowledge management system for a Data Steward working in agricultural geospatial data (Location360/Bayer).
+An Obsidian vault (not a code repository) organized with **PARA + ACE + Zettelkasten** methodology. PARA files notes by actionability; ACE provides thinking spaces; Zettelkasten (implemented in Atlas) connects atomic ideas into a web of linked notes. It is a generic personal knowledge management scaffold—populate it with your own projects, domains, and tags.
 
 ## Vault Structure
 
@@ -83,7 +83,7 @@ Boolean flags (`project: true`, `AoR: true`, `AoI: true`, `ai_agent: true`, `ide
 
 ## Tags
 
-Hierarchical with slashes: `areas/responsibility`, `areas/interest`, `note/meeting`, `note/literature`, `log/incident`, `Location360/Imagery/Imagine`. Common top-level: `projects`, `active`, `contact`, `agent`, `index`, `template`, `concept`, `moc`, `zettelkasten`.
+Hierarchical with slashes: `areas/responsibility`, `areas/interest`, `note/meeting`, `note/literature`, `log/incident`, `domain/topic/subtopic` (use your own domain hierarchy). Common top-level: `projects`, `active`, `contact`, `agent`, `index`, `template`, `concept`, `moc`, `zettelkasten`.
 
 ## Zettelkasten
 
@@ -114,6 +114,6 @@ Agent definitions in `200_AGENTS/` are markdown files loaded as system prompts. 
 
 `dataview`, `obsidian-git`, `obsidian-kanban`, `templater-obsidian`, `bases` (core). Kanban boards use the `kanban-plugin: board` frontmatter marker with specific settings blocks at the bottom.
 
-## Domain Context
+## Your domain context
 
-Location360 geospatial data platform — imagery pipelines, UAV data processing, Label Studio labeling, data quality. Tech stack: Go, PostgreSQL (AWS RDS), Vue.js, Python, DuckDB (caching). Organizations: Location360, SPI (Sensors and Insights), Breeding/R&D.
+This boilerplate does not assume a job, employer, or tech stack. When you add notes, set `vertical:`, `tech_stack:[]`, and hierarchical tags to match **your** work and interests. Keep employer- or client-specific material in a **private** repo if needed.

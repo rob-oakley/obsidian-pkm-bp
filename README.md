@@ -32,16 +32,16 @@ The directory must be **empty** before clone (no existing `.obsidian` or notes).
 
 ### 2. Clone into that folder
 
-Clone with `.` so the vault root is the git repository root:
+Clone with `.` so the vault root is the git repository root. Replace `YOUR_GITHUB_USER` with the GitHub account or org that hosts **your** copy of this boilerplate (fork or template):
 
 ```bash
-git clone git@github.com:rob-oakley/obsidian-pkm-bp.git .
+git clone git@github.com:YOUR_GITHUB_USER/obsidian-pkm-bp.git .
 ```
 
 HTTPS:
 
 ```bash
-git clone https://github.com/rob-oakley/obsidian-pkm-bp.git .
+git clone https://github.com/YOUR_GITHUB_USER/obsidian-pkm-bp.git .
 ```
 
 ### 3. Open the folder in Obsidian
@@ -104,4 +104,4 @@ If you use [Cursor](https://cursor.com/) with this vault, open the cloned folder
 
 ## License / visibility
 
-Check repository visibility on GitHub before storing employer or sensitive data. Prefer a **private** repo for work-related notes.
+Use a **private** repository if you store sensitive or employer-specific notes.

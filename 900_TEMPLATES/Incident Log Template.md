@@ -39,7 +39,7 @@ impact:
 ```
 
 **Environment:**
-- Service/API: [e.g., imagine-api-v4]
+- Service/API: [e.g., payments-api-v2]
 - Endpoint: [specific API endpoint if applicable]
 - Base URL: [API base URL]
 

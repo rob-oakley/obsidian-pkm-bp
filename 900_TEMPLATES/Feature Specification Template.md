@@ -1,6 +1,6 @@
 ---
 tags:
-  - dsmc/feature
+  - feature
   - template
 status: draft
 priority: tbd
@@ -13,7 +13,7 @@ effort: tbd
 
 **Problem Statement:** [What problem does this feature solve?]
 
-**User Value:** [What value does this provide to data stewards?]
+**User Value:** [What value does this provide to users or stakeholders?]
 
 **Success Criteria:** [How will we know this feature is successful?]
 

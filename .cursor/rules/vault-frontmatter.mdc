@@ -6,7 +6,7 @@ alwaysApply: false
 
 # Frontmatter & tags
 
-All new/edited notes need YAML frontmatter. Use hierarchical tags with slashes (`note/meeting`, `areas/responsibility`, `Location360/Imagery/Imagine`).
+All new/edited notes need YAML frontmatter. Use hierarchical tags with slashes (`note/meeting`, `areas/responsibility`, `domain/topic/subtopic`).
 
 | Note kind | Location | Key fields |
 |-----------|----------|------------|
